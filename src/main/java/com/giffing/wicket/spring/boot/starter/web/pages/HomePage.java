@@ -5,4 +5,7 @@ import org.apache.wicket.markup.html.WebPage;
 
 @WicketHomePage
 public class HomePage extends WebPage {
+    public HomePage() {
+        add(new TripSchedulePanel("tripSchedulePanel"));
+    }
 }
