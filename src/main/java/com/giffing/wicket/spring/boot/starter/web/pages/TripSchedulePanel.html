@@ -1,0 +1,28 @@
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+</head>
+<body>
+    <wicket:panel>
+        <header>
+            <h1 wicket:id="title">Trip Schedule</h1>
+        </header>
+        <main>
+            <div wicket:id="scheduleListView">
+                <section>
+                    <h2 wicket:id="date"></h2>
+                    <ul wicket:id="eventListView">
+                        <li>
+                            <details>
+                                <summary>
+                                    <span wicket:id="time"></span> - <span wicket:id="description"></span>
+                                </summary>
+                                <p wicket:id="details"></p>
+                            </details>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+    </wicket:panel>
+</body>
+</html>
